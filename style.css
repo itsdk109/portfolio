@@ -156,6 +156,24 @@
      box-shadow: 0 8px 25px rgba(245, 158, 11, 0.8);
  }
 
+.social-icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* LinkedIn blue or change as needed */
+}
+
+
  /* Sections common */
  section {
      max-width: 1200px;
