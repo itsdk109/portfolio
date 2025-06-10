@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Deepak Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-rDFoF4Ki8gB5CXY+MEz5GMiGuVlMPxqKjJvV+H8uAv/PGKJcM5Qaxp8ixGMVLqRHtBawLwgy5FgT/VyUtJ5nGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+
+<body>
+
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skill</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="profile-img-container">
+            <img src="myprofile.jpeg" alt="Deepak Kumar Choudhary Profile Picture" />
+        </div>
+        <h1>Hi, I'm <span>Deepak Kumar Choudhary</span></h1>
+        <!-- <p>UX Designer & Frontend Developer</p> -->
+        <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Hire Me</button>
+    </section>
+
+    <!-- Abount -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Deepak Kumar Choudhary, a detail-oriented and passionate BCA graduate with a strong foundation in
+            data analysis and development. I thrive on solving real-world problems through smart, data-driven solutions.
+            With hands-on experience in Excel, SQL, and Python and a proven record of improving operational efficiency,
+            I am eager to bring my skills into a dynamic role in MIS or analytics where I can grow and contribute
+            effectively</p>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Data Collector & Analyst</h3>
+            <h4 data-start="2025-02-24" data-end="present">
+                NMBR SYSTEMS PRIVATE LIMITED | Feb 2025 - Present (<span class="exp-duration"></span>)
+            </h4>
+
+
+            <p>
+            <ul>
+                <li>Collected, verified, and entered large volumes of student and administrative data into college
+                    management systems, ensuring 99% data accuracy across 1000+ records.</li></br>
+
+                <li>Maintained the accuracy, consistency, and integrity of all student information records, resulting in
+                    a 15% improvement in operational efficiency.</li></br>
+
+                <li>Assisted in basic data analysis and reporting using Microsoft Excel, creating summary reports, pivot
+                    tables, and charts to support decision-making.</li></br>
+
+                <li>Collaborated with faculty and administration teams to ensure on-time data collection, validation,
+                    and monthly reporting, contributing to faster academic and administrative processing.</li></br>
+            </ul>
+            </p>
+        </div>
+
+    </section>
+
+    <!--Skill-->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skill-category">
+            <h3>Programming</h3>
+            <ul>
+                <li><i class="fas fa-code"></i> Python</li>
+                <li><i class="fas fa-database"></i> SQL</li>
+                <li><i class="fas fa-file-code"></i> VBA (Visual Basic for Applications)</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Tools</h3>
+            <ul>
+                <li><i class="fas fa-code"></i> Python</li>
+                <li><i class="fas fa-database"></i> SQL</li>
+                <li><i class="fas fa-file-excel"></i> Microsoft Excel</li>
+                <li><i class="fas fa-chart-bar"></i> Tableau</li>
+                <li><i class="fas fa-chart-bar"></i> Power BI</li>
+                <li><i class="fas fa-file-alt"></i> Google Sheets</li>
+                <li><i class="fas fa-book"></i> Jupyter Notebook</li>
+                <li><i class="fas fa-cube"></i> Anaconda</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Operating System</h3>
+            <ul>
+                <li><i class="fas fa-windows"></i> Windows</li>
+                <li><i class="fas fa-linux"></i> Linux</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
+                <li><i class="fas fa-comments"></i> Communication</li>
+                <li><i class="fas fa-clock"></i> Time Management</li>
+                <li><i class="fas fa-users"></i> Team Collaboration</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <article class="project-card">
+                <img src="college.png" alt="College Project" />
+                <div class="content">
+                    <h5>College Project -</h5>
+                    <h3>Management System (Jul 2018)</h3>
+                    <p>Developed a desktop application using Visual Basic 6.0 and MS Access with a user-friendly GUI to
+                        manage admissions, fees, exams, payroll, and reporting; implemented role-based access to
+                        streamline institutional operations and minimize manual task.</p>
+                    <!--  <a href="#">Live Demo</a> -->
+                    <a href="https://github.com/itsdk109/college-management-system">GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="GO.jpg" alt="Internship" />
+                <div class="content">
+                    <h5>Internship from TechnoBuds -</h5>
+                    <h3>Go Restful API</h3>
+                    <p>Created a basic RESTful API using Go (Chi router) and PostgreSQL to perform CRUD operations on a
+                        book collection, featuring endpoints for creating, reading</p>
+                    <!--  <a href="#">Live Demo</a> -->
+                    <a href="https://github.com/itsdk109/go_restfull_api">GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://lmpixels.com/demo/breezycv/lightfw/1/assets/img/projects/project-3.jpg"
+                    alt="Project 3" />
+                <div class="content">
+                    <h3>Portfolio Website</h3>
+                    <p>Showcasing clean, modern UI and mobile-first design principles.</p>
+                    <!-- <a href="#">Live Demo</a> -->
+                    <a href="#">GitHub</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://lmpixels.com/demo/breezycv/lightfw/1/assets/img/projects/project-4.jpg"
+                    alt="Project 4" />
+                <div class="content">
+                    <h3>Travel Blog</h3>
+                    <p>A visually stunning blog with interactive maps and travel stories.</p>
+                    <!-- <a href="#">Live Demo</a> -->
+                    <a href="#">GitHub</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/dkjob109@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <!-- Hidden fields -->
+            <input type="hidden" name="_next" value="message.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-icons" aria-label="Social Media Links">
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Deepak Kumar Choudhary. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function calculateExperienceMonths(startDate, endDate) {
+            const start = new Date(startDate);
+            const end = (endDate.toLowerCase() === "present") ? new Date() : new Date(endDate);
+
+            let months = (end.getFullYear() - start.getFullYear()) * 12;
+            months -= start.getMonth();
+            months += end.getMonth();
+
+            return months <= 0 ? 0 : months;
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const experienceItems = document.querySelectorAll("h4[data-start]");
+
+            experienceItems.forEach((item) => {
+                const start = item.getAttribute("data-start");
+                const end = item.getAttribute("data-end");
+
+                const months = calculateExperienceMonths(start, end);
+                const span = item.querySelector(".exp-duration");
+
+                if (span) {
+                    span.textContent = `${months} month${months !== 1 ? 's' : ''}`;
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
