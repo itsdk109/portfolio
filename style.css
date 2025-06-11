@@ -481,9 +481,10 @@
          padding: 3rem 1rem;
      }
 
-     .project-card img {
-         height: 150px;
-     }
+     .profile-img-container {
+        width: 200px;
+        height: 200px;
+    }
  }
 
  @media (max-width: 480px) {
@@ -498,6 +499,10 @@
      }
 
      #home h1 {
-         font-size: 2rem;
+         font-size: 1rem;
      }
+     .profile-img-container {
+        width: 150px;
+        height: 150px;
+    }
  }
